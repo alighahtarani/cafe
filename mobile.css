@@ -1,95 +1,130 @@
-@media screen and (max-width: 700px){
-header{
-width: 100%;
+@media screen and (max-width: 700px) {
+    header {
+        width: 100%;
 
 
 
-}
-.header--ul--li{
+    }
 
-display: none;
+    .header--ul--li {
 
-
-
-}
-.header--logo{
+        display: none !important;
 
 
 
+    }
 
+    
 
-}
-.header--ul{
-width: 200px;
+    .header--ul {
+        width: 200px !important;
 
 
 
 
 
-}
+    }
 
-.axchef{
-
-
-    display: none;
-}
+    .axchef {
 
 
-.foods{
+        display: none !important;
+    }
 
+
+    .foods {
+
+        flex-direction: column;
+
+
+
+    }
+
+    .food--img {
+        width: 100%;
+
+
+
+    }
+
+    .hamberger {
+        display: block !important;
+        margin-left: 20px !important;
+
+
+    }
+
+    .text {
+
+        display: none;
+
+    }
+
+    .photo--img {
+
+        width: 100%;
+
+
+
+    }
+
+    .footer--logo {
+        width: 100px !important;
+
+
+
+    }
+
+    .footer--ertebatat {
+        font-size: 70px !important;
+
+
+
+    }
+
+    footer {
+
+
+        height: 400px !important;
+    }
+
+    .footer--tamas {
+
+        font-size: 14px !important;
+
+
+
+    }
+
+    .cards {
+
+
+
+
+        flex-direction: column;
+        width: 100% !important;
+    }
+    .cards--div{
+width: 90% !important;
+margin: auto;
+
+
+
+    }
+    .tasavir{
 flex-direction: column;
 
 
 
-}
-.food--img{
-width: 100%;
 
 
-
-}
-.hamberger{
-display: block;
-margin-left: 20px;
-
-
-}
-.text{
-
-display: none;
-
-}
-.photo--img{
-
-width: 100%;
+    }
+    .tasvir--img{
+width: 100% !important;
+margin-left: 0;
+margin-right: 0;
 
 
-
-}
-.footer--logo{
-width: 100px;
-
-
-
-}
-.footer--ertebatat{
-font-size: 70px;
-
-
-
-}
-footer{
-
-
-    height: 500px;
-}
-.footer--tamas{
-
-font-size: 16px;
-
-
-
-}
-
+    }
 
 }
